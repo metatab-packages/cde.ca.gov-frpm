@@ -3,12 +3,15 @@ Title,Student Poverty FRPM Data
 Description,Data files pertaining to students eligible for Free or Reduced Price Meals
 Description,(FRPM).
 Identifier,3f5db7dd-8185-4d02-af72-abc09bfbee08
-Name,cde.ca.gov-frpm-2
+Name,cde.ca.gov-frpm-1.2.1
 Dataset,frpm
 Origin,cde.ca.gov
-Version,2
+Version,1.2.1
+Version.Major,1
+Version.Minor,2
+Version.Patch,1
 Created,2019-04-02T19:55:44
-Modified,2019-05-21T04:38:49
+Modified,2021-02-25T02:40:48
 Giturl,https://github.com/Metatab/metatab-packages.git
 ""
 Section,Contacts,Email,Organization,Url,,
