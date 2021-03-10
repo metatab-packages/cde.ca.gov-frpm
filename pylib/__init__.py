@@ -31,11 +31,9 @@ def combined(resource, doc, env, *args, **kwargs):
 
     """
 
-    from collections import OrderedDict
-    from copy import copy
-
     cols = [c['name'] for c in resource.columns() if c['name'] != 'year']
 
+    header = None
     for r in doc.resources():
         
         if r.name == 'free_rp_meals':
@@ -45,6 +43,10 @@ def combined(resource, doc, env, *args, **kwargs):
             continue
         
         for d in r.iterdict:
-            yield [r.year] + [ d.get(c) for c in cols]
+            
+            if header is None:
+                yield ['year'] + list(d.keys())
+          
+            yield [r.year] + list(d.values())
             
             
