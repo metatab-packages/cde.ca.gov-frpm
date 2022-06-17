@@ -11,8 +11,8 @@ Version.Major,1
 Version.Minor,2
 Version.Patch,1
 Created,2019-04-02T19:55:44
-Modified,2021-03-10T17:48:20
-Giturl,https://github.com/Metatab/metatab-packages.git
+Modified,2022-06-17T17:11:25
+Giturl,https://github.com/metatab-packages/cde.ca.gov-frpm.git
 ""
 Section,Contacts,Email,Organization,Url,,,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,,,
